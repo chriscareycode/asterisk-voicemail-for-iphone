@@ -57,7 +57,7 @@
 				<tr>
 					<td>Play Message: </td>
 					<td>
-	                    <object id="message" type="audio/x-mpeg" data="listen/{$secret_key}/{$mailbox}/INBOX/{$i.file}.mp3" width="48" height="48" autoplay="false">
+	                    <object type="audio/x-mpeg" data="listen/{$secret_key}/{$mailbox}/INBOX/{$i.file}.mp3" width="42" height="42" autoplay="false">
 	                    <param name="src" value="listen/{$secret_key}/{$mailbox}/INBOX/{$i.file}.mp3" />
 	                    <param name="controller" value="true" />
 	                    <param name="autoplay" value="false" />
