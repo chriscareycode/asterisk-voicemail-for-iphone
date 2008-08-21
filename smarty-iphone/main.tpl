@@ -56,13 +56,16 @@
 			<table>
 				<tr>
 					<td>Play Message: </td>
-					<!-- object -->
-					<td><EMBED height="35" width="35" HREF="listen/{$secret_key}/{$mailbox}/INBOX/{$i.file}.mp3" TYPE="audio/mp3" TARGET="quicktimeplayer" SCALE="1" /></td>
+					<td>
+	                    <object type="audio/x-mpeg" data="listen/{$secret_key}/{$mailbox}/INBOX/{$i.file}.mp3" width="48" height="48" autoplay="$
+	                    <param name="src" value="listen/{$secret_key}/{$mailbox}/INBOX/{$i.file}.WAV" />
+	                    <param name="controller" value="true" />
+	                    <param name="autoplay" value="false" />
+	                    <param name="autostart" value="0" />
+	                    </object>
+                    </td>
 				</tr>
 			</table>
-				
-			
-			
 		</li>
 		<li class="group">Action</li>
         <!-- li><a href="{$apache_messages_alias}{$mailbox}/INBOX/{$i.file}.mp3" target="_self">Play Message</a></li -->
