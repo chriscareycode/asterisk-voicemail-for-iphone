@@ -56,6 +56,7 @@
 			<table>
 				<tr>
 					<td>Play Message: </td>
+					<!-- object -->
 					<td><EMBED height="35" width="35" HREF="listen/{$secret_key}/{$mailbox}/INBOX/{$i.file}.mp3" TYPE="audio/mp3" TARGET="quicktimeplayer" SCALE="1" /></td>
 				</tr>
 			</table>
